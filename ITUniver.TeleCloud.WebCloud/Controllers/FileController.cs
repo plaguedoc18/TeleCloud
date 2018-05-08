@@ -10,7 +10,7 @@ using System.Web.Mvc;
 
 namespace ITUniver.TeleCloud.WebCloud.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class FilesController : Controller
     {
         private Disk action { get; set; }

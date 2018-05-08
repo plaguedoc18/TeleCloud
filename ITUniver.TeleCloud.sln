@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud", "ITUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud.Core", "ITUniver.TeleCloud.Core\ITUniver.TeleCloud.Core.csproj", "{CA64A15E-C8BF-4328-AC39-FA89552A6700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud.WebCloud", "ITUniver.TeleCloud.WebCloud\ITUniver.TeleCloud.WebCloud.csproj", "{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud.Web", "ITUniver.TeleCloud.Web\ITUniver.TeleCloud.Web.csproj", "{1A43724E-55AB-4188-B086-E5D023220182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A43724E-55AB-4188-B086-E5D023220182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A43724E-55AB-4188-B086-E5D023220182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A43724E-55AB-4188-B086-E5D023220182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A43724E-55AB-4188-B086-E5D023220182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

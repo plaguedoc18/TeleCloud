@@ -34,12 +34,40 @@ namespace ITUniver.TeleCloud.Core
             return File1.Select(x => x.FileName);
         }
 
-        public bool NewFile(string Name)
+        public bool NewFile(string Name, string[] Text)
         {
             try
             {
                 FileInfo f = new FileInfo(_dir + Name);
-                using (FileStream fs = f.Create()) { }
+                using (FileStream fs = f.Create())
+                {
+                    using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
+                    {
+                        for (int i = 0; i < Text.Length; i++)
+                        {
+                            sw.WriteLine(Text[i]);
+                        }
+                    }
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool NewFile(string Name, string Text)
+        {
+            try
+            {
+                FileInfo f = new FileInfo(_dir + Name);
+                using (FileStream fs = f.Create())
+                {
+                    using (StreamWriter sw = new StreamWriter(fs, Encoding.UTF8))
+                    {
+                        sw.WriteLine(Text);
+                    }
+                }
                 return true;
             }
             catch
