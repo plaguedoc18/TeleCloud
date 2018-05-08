@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud", "ITUniver.TeleCloud\ITUniver.TeleCloud.csproj", "{CCED89E1-BCA5-4E7A-976D-3FD13714272F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud.Core", "ITUniver.TeleCloud.Core\ITUniver.TeleCloud.Core.csproj", "{CA64A15E-C8BF-4328-AC39-FA89552A6700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITUniver.TeleCloud.WebCloud", "ITUniver.TeleCloud.WebCloud\ITUniver.TeleCloud.WebCloud.csproj", "{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CCED89E1-BCA5-4E7A-976D-3FD13714272F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCED89E1-BCA5-4E7A-976D-3FD13714272F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCED89E1-BCA5-4E7A-976D-3FD13714272F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA64A15E-C8BF-4328-AC39-FA89552A6700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83E9A11-E7CE-4ACD-B5E0-A2BFFAC573CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
